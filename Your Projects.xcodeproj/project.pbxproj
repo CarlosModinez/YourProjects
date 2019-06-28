@@ -7,13 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D194272422A7F06300F9D81E /* MyProjectsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D194272322A7F06300F9D81E /* MyProjectsViewController.swift */; };
+		D194272822A7F4B300F9D81E /* ProjectCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D194272722A7F4B300F9D81E /* ProjectCollectionViewCell.swift */; };
+		D194272B22A8009900F9D81E /* PresentationProjectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D194272A22A8009900F9D81E /* PresentationProjectViewController.swift */; };
+		D194272D22A800DF00F9D81E /* DescriptionProjectTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D194272C22A800DF00F9D81E /* DescriptionProjectTableViewCell.swift */; };
+		D194272F22A800FB00F9D81E /* ImageProjectTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D194272E22A800FB00F9D81E /* ImageProjectTableViewCell.swift */; };
+		D194273122A8086200F9D81E /* PresentationActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D194273022A8086200F9D81E /* PresentationActivityViewController.swift */; };
+		D194273422A8091700F9D81E /* NameTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D194273322A8091700F9D81E /* NameTableViewCell.swift */; };
+		D194273622A8097000F9D81E /* ProjectNameTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D194273522A8097000F9D81E /* ProjectNameTableViewCell.swift */; };
+		D194273822A8098C00F9D81E /* DeadlineActivityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D194273722A8098C00F9D81E /* DeadlineActivityTableViewCell.swift */; };
+		D194273A22A809A200F9D81E /* DescriptionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D194273922A809A200F9D81E /* DescriptionTableViewCell.swift */; };
 		D1B5B1F422A698100033A60F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B5B1F322A698100033A60F /* AppDelegate.swift */; };
-		D1B5B1F622A698100033A60F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B5B1F522A698100033A60F /* ViewController.swift */; };
 		D1B5B1F922A698100033A60F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1B5B1F722A698100033A60F /* Main.storyboard */; };
 		D1B5B1FB22A698110033A60F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1B5B1FA22A698110033A60F /* Assets.xcassets */; };
 		D1B5B1FE22A698110033A60F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1B5B1FC22A698110033A60F /* LaunchScreen.storyboard */; };
 		D1B5B20922A698110033A60F /* Your_ProjectsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B5B20822A698110033A60F /* Your_ProjectsTests.swift */; };
 		D1B5B21422A698110033A60F /* Your_ProjectsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B5B21322A698110033A60F /* Your_ProjectsUITests.swift */; };
+		D1B5B22522A69EC70033A60F /* ActivityViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B5B22422A69EC70033A60F /* ActivityViewCell.swift */; };
+		D1B5B22722A69EDF0033A60F /* AddActivityViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B5B22622A69EDF0033A60F /* AddActivityViewCell.swift */; };
+		D1B5B22922A6A0F30033A60F /* NextHandsOverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B5B22822A6A0F30033A60F /* NextHandsOverViewController.swift */; };
+		D1B5B22B22A6A1E90033A60F /* Project.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B5B22A22A6A1E90033A60F /* Project.swift */; };
+		D1B5B22D22A6A2050033A60F /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B5B22C22A6A2050033A60F /* Model.swift */; };
+		D1B5B22F22A6A3090033A60F /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B5B22E22A6A3090033A60F /* Activity.swift */; };
+		D1F6591C22A93A2000BB3D2E /* AddNewActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F6591B22A93A2000BB3D2E /* AddNewActivityViewController.swift */; };
+		D1F6592222A9527600BB3D2E /* AddNewProjectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F6592122A9527600BB3D2E /* AddNewProjectViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +51,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D194272322A7F06300F9D81E /* MyProjectsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProjectsViewController.swift; sourceTree = "<group>"; };
+		D194272722A7F4B300F9D81E /* ProjectCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectCollectionViewCell.swift; sourceTree = "<group>"; };
+		D194272A22A8009900F9D81E /* PresentationProjectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationProjectViewController.swift; sourceTree = "<group>"; };
+		D194272C22A800DF00F9D81E /* DescriptionProjectTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionProjectTableViewCell.swift; sourceTree = "<group>"; };
+		D194272E22A800FB00F9D81E /* ImageProjectTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageProjectTableViewCell.swift; sourceTree = "<group>"; };
+		D194273022A8086200F9D81E /* PresentationActivityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationActivityViewController.swift; sourceTree = "<group>"; };
+		D194273322A8091700F9D81E /* NameTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameTableViewCell.swift; sourceTree = "<group>"; };
+		D194273522A8097000F9D81E /* ProjectNameTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectNameTableViewCell.swift; sourceTree = "<group>"; };
+		D194273722A8098C00F9D81E /* DeadlineActivityTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeadlineActivityTableViewCell.swift; sourceTree = "<group>"; };
+		D194273922A809A200F9D81E /* DescriptionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionTableViewCell.swift; sourceTree = "<group>"; };
 		D1B5B1F022A698100033A60F /* Your Projects.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Your Projects.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1B5B1F322A698100033A60F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D1B5B1F522A698100033A60F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D1B5B1F822A698100033A60F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D1B5B1FA22A698110033A60F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D1B5B1FD22A698110033A60F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +73,14 @@
 		D1B5B20F22A698110033A60F /* Your ProjectsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Your ProjectsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1B5B21322A698110033A60F /* Your_ProjectsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Your_ProjectsUITests.swift; sourceTree = "<group>"; };
 		D1B5B21522A698110033A60F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1B5B22422A69EC70033A60F /* ActivityViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ActivityViewCell.swift; path = ../ActivityViewCell.swift; sourceTree = "<group>"; };
+		D1B5B22622A69EDF0033A60F /* AddActivityViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AddActivityViewCell.swift; path = ../AddActivityViewCell.swift; sourceTree = "<group>"; };
+		D1B5B22822A6A0F30033A60F /* NextHandsOverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextHandsOverViewController.swift; sourceTree = "<group>"; };
+		D1B5B22A22A6A1E90033A60F /* Project.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project.swift; sourceTree = "<group>"; };
+		D1B5B22C22A6A2050033A60F /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		D1B5B22E22A6A3090033A60F /* Activity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
+		D1F6591B22A93A2000BB3D2E /* AddNewActivityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewActivityViewController.swift; sourceTree = "<group>"; };
+		D1F6592122A9527600BB3D2E /* AddNewProjectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewProjectViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +108,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D194272522A7F42400F9D81E /* All Activities Cells */ = {
+			isa = PBXGroup;
+			children = (
+				D1B5B22422A69EC70033A60F /* ActivityViewCell.swift */,
+				D1B5B22622A69EDF0033A60F /* AddActivityViewCell.swift */,
+			);
+			path = "All Activities Cells";
+			sourceTree = "<group>";
+		};
+		D194272622A7F46700F9D81E /* All Projects Collection Cell */ = {
+			isa = PBXGroup;
+			children = (
+				D194272722A7F4B300F9D81E /* ProjectCollectionViewCell.swift */,
+			);
+			path = "All Projects Collection Cell";
+			sourceTree = "<group>";
+		};
+		D194272922A8002D00F9D81E /* Presentation Project Cells */ = {
+			isa = PBXGroup;
+			children = (
+				D194272C22A800DF00F9D81E /* DescriptionProjectTableViewCell.swift */,
+				D194272E22A800FB00F9D81E /* ImageProjectTableViewCell.swift */,
+			);
+			path = "Presentation Project Cells";
+			sourceTree = "<group>";
+		};
+		D194273222A808FB00F9D81E /* Presentation Activity Cells */ = {
+			isa = PBXGroup;
+			children = (
+				D194273322A8091700F9D81E /* NameTableViewCell.swift */,
+				D194273522A8097000F9D81E /* ProjectNameTableViewCell.swift */,
+				D194273722A8098C00F9D81E /* DeadlineActivityTableViewCell.swift */,
+				D194273922A809A200F9D81E /* DescriptionTableViewCell.swift */,
+			);
+			path = "Presentation Activity Cells";
+			sourceTree = "<group>";
+		};
 		D1B5B1E722A6980F0033A60F = {
 			isa = PBXGroup;
 			children = (
@@ -97,12 +168,11 @@
 		D1B5B1F222A698100033A60F /* Your Projects */ = {
 			isa = PBXGroup;
 			children = (
-				D1B5B1F322A698100033A60F /* AppDelegate.swift */,
-				D1B5B1F522A698100033A60F /* ViewController.swift */,
-				D1B5B1F722A698100033A60F /* Main.storyboard */,
-				D1B5B1FA22A698110033A60F /* Assets.xcassets */,
-				D1B5B1FC22A698110033A60F /* LaunchScreen.storyboard */,
 				D1B5B1FF22A698110033A60F /* Info.plist */,
+				D1B5B1F322A698100033A60F /* AppDelegate.swift */,
+				D1B5B22122A698300033A60F /* Model */,
+				D1B5B22322A698410033A60F /* View */,
+				D1B5B22222A6983D0033A60F /* Controller */,
 			);
 			path = "Your Projects";
 			sourceTree = "<group>";
@@ -123,6 +193,67 @@
 				D1B5B21522A698110033A60F /* Info.plist */,
 			);
 			path = "Your ProjectsUITests";
+			sourceTree = "<group>";
+		};
+		D1B5B22122A698300033A60F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D1B5B22A22A6A1E90033A60F /* Project.swift */,
+				D1B5B22E22A6A3090033A60F /* Activity.swift */,
+				D1B5B22C22A6A2050033A60F /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D1B5B22222A6983D0033A60F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D1F6591D22A9512200BB3D2E /* mains */,
+				D1F6591E22A9513C00BB3D2E /* Presentation */,
+				D1F6591F22A9517800BB3D2E /* For add new elements */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D1B5B22322A698410033A60F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D194273222A808FB00F9D81E /* Presentation Activity Cells */,
+				D194272922A8002D00F9D81E /* Presentation Project Cells */,
+				D194272622A7F46700F9D81E /* All Projects Collection Cell */,
+				D194272522A7F42400F9D81E /* All Activities Cells */,
+				D1B5B1F722A698100033A60F /* Main.storyboard */,
+				D1B5B1FA22A698110033A60F /* Assets.xcassets */,
+				D1B5B1FC22A698110033A60F /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D1F6591D22A9512200BB3D2E /* mains */ = {
+			isa = PBXGroup;
+			children = (
+				D1B5B22822A6A0F30033A60F /* NextHandsOverViewController.swift */,
+				D194272322A7F06300F9D81E /* MyProjectsViewController.swift */,
+			);
+			path = mains;
+			sourceTree = "<group>";
+		};
+		D1F6591E22A9513C00BB3D2E /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				D194272A22A8009900F9D81E /* PresentationProjectViewController.swift */,
+				D194273022A8086200F9D81E /* PresentationActivityViewController.swift */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		D1F6591F22A9517800BB3D2E /* For add new elements */ = {
+			isa = PBXGroup;
+			children = (
+				D1F6591B22A93A2000BB3D2E /* AddNewActivityViewController.swift */,
+				D1F6592122A9527600BB3D2E /* AddNewProjectViewController.swift */,
+			);
+			path = "For add new elements";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,8 +387,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1B5B1F622A698100033A60F /* ViewController.swift in Sources */,
+				D194272B22A8009900F9D81E /* PresentationProjectViewController.swift in Sources */,
+				D194272822A7F4B300F9D81E /* ProjectCollectionViewCell.swift in Sources */,
+				D194272D22A800DF00F9D81E /* DescriptionProjectTableViewCell.swift in Sources */,
+				D1B5B22D22A6A2050033A60F /* Model.swift in Sources */,
+				D194273622A8097000F9D81E /* ProjectNameTableViewCell.swift in Sources */,
+				D194273822A8098C00F9D81E /* DeadlineActivityTableViewCell.swift in Sources */,
+				D1B5B22B22A6A1E90033A60F /* Project.swift in Sources */,
+				D1B5B22922A6A0F30033A60F /* NextHandsOverViewController.swift in Sources */,
+				D1F6591C22A93A2000BB3D2E /* AddNewActivityViewController.swift in Sources */,
+				D1B5B22522A69EC70033A60F /* ActivityViewCell.swift in Sources */,
+				D194273122A8086200F9D81E /* PresentationActivityViewController.swift in Sources */,
+				D1B5B22722A69EDF0033A60F /* AddActivityViewCell.swift in Sources */,
+				D194273422A8091700F9D81E /* NameTableViewCell.swift in Sources */,
+				D1B5B22F22A6A3090033A60F /* Activity.swift in Sources */,
 				D1B5B1F422A698100033A60F /* AppDelegate.swift in Sources */,
+				D194272F22A800FB00F9D81E /* ImageProjectTableViewCell.swift in Sources */,
+				D1F6592222A9527600BB3D2E /* AddNewProjectViewController.swift in Sources */,
+				D194273A22A809A200F9D81E /* DescriptionTableViewCell.swift in Sources */,
+				D194272422A7F06300F9D81E /* MyProjectsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
